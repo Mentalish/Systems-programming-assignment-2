@@ -5,6 +5,6 @@ fi
 
 echo "$1"
 
-sed -E -i.bak -f operators.sed "$1"
-sed -E -i.bak -f conditionals.sed "$1"
-sed -E -i.bak -f whitespace.sed "$1"
+sed -E -i -f operators.sed "$1"
+sed -E -i -f conditionals.sed "$1"
+sed -E -i -f whitespace.sed "$1"
